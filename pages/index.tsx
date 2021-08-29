@@ -1,9 +1,8 @@
-import Navbar from '../components/Navbar'
-import HeroSection from '../components/HeroSection'
-import ActivSection from '../components/ActivSection'
+import ActivSection from '../components/Home/ActivSection'
 import { GetStaticProps } from 'next';
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../components/layout/Layout';
+import HeroSection from '../components/Home/HeroSection';
 
 export default function Home({posts}) {
   return (

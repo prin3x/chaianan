@@ -15,74 +15,99 @@ a {
   box-sizing: border-box;
 }
 
-
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
   height: 10rem;
-  .logo-container{
+  .logo-container {
     height: 100%;
   }
-  .navbar-items-list{
+  .navbar-items-list {
     height: 100%;
   }
-  .navbar-list{
+  .navbar-list {
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     text-decoration: none;
     list-style: none;
     height: 100%;
     padding-bottom: 1rem;
   }
-  .navbar-items{
+  .navbar-items {
     text-decoration: none;
-    color: #1E3163;
+    color: #1e3163;
     line-height: 20px;
     font-weight: 600;
-    &:not(:last-of-type){
+    &:not(:last-of-type) {
       padding-right: 1rem;
     }
   }
 }
 
-.herosection{
-  
-  .herosection-image{
+.herosection {
+  .herosection-image {
     width: 100vw;
     height: 80vh;
   }
-  .heroimage{
+  .heroimage {
     height: 80vh;
     width: 100vw;
   }
 }
 
-.activsection{
-  .headliner{
+.activsection {
+  .headliner {
     font-size: 2.75rem;
     text-transform: uppercase;
     font-weight: 500;
   }
 
-  .activ-content-wrapper{
+  .activ-content-wrapper {
     display: flex;
     justify-content: center;
   }
 
-  .activ-card{
+  .activ-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0 2rem;
   }
-  
-  .activ-description{
+
+  .activ-description {
     font-size: 1.5rem;
   }
 }
 
-.footer{
+.footer {
   padding: 2rem;
 }
+
+.help {
+  .title-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .help-headline {
+    font-size: 5rem;
+    color: #ffaa4c;
+  }
+  .help-image-hero,.help-image {
+    width: 100vw;
+    height: 80vh;
+  }
+}
+
+.keepkru{
+  .keepkru-image-hero,
+  .keepkru-image{
+    width: 100vw;
+    height: 80vh;
+  }
+
+}
+
+

@@ -11,23 +11,23 @@ const Navbar = () => {
       <div className='navbar-items-list'>
         <ul className='navbar-list'>
           <li className='navbar-items'>
-            <Link href='/about'>
+            <Link href='/'>
               <a>รู้จักมูลนิธิ</a>
             </Link>
           </li>
           <li className='navbar-items'>
-            <Link href='/about'>
+            <Link href='/helpthehelpers'>
               <a>Help the Helpers</a>
             </Link>
           </li>
           <li className='navbar-items'>
-            <Link href='/about'>Keep Kri</Link>
+            <Link href='/keepkru'>Keep Kru</Link>
           </li>
           <li className='navbar-items'>
-            <Link href='/about'>ผลงาน</Link>
+            <Link href='/'>ผลงาน</Link>
           </li>
           <li className='navbar-items'>
-            <Link href='/about'>ติดต่อเรา</Link>
+            <Link href='/'>ติดต่อเรา</Link>
           </li>
         </ul>
       </div>
