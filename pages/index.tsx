@@ -17,8 +17,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
   // const res = await fetch('https://.../posts')
   const posts = [
     { id: 1, title: 'มอบอุปกรณ์การแพทย์', image: '/assets/activ01.png' },
-    { id: 2, title: 'มอบอุปกรณ์การแพทย์', image: '/assets/activ01.png' },
-    { id: 3, title: 'มอบอุปกรณ์การแพทย์', image: '/assets/activ01.png' },
+    { id: 2, title: 'มอบอุปกรณ์การแพทย์2', image: '/assets/activ01.png' },
+    { id: 3, title: 'มอบอุปกรณ์การแพทย์3', image: '/assets/activ01.png' },
   ];
 
   return {
