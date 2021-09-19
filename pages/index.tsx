@@ -3,12 +3,16 @@ import { GetStaticProps } from 'next';
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import HeroSection from '../components/Home/HeroSection';
+import SupportFoundation from '../components/Home/SupportFoundation';
+import Location from '../components/Home/Location';
 
 export default function Home({posts}) {
   return (
     <Layout>
       <HeroSection/>
       <ActivSection posts={posts}/>
+      <SupportFoundation/>
+      <Location/>
     </Layout>
   );
 }
